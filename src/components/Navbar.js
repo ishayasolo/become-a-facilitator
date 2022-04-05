@@ -6,10 +6,10 @@ export const Navbar = () => {
     <nav className="nav">
       <img className="logo" src={logo} alt="" />
       <ul>
-        <li><a>About</a></li>
-        <li><a>Courses</a></li>
-        <li><a>Become a facilitator</a></li>
-        <li><a>FAQ</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Courses</a></li>
+        <li><a href="#">Become a facilitator</a></li>
+        <li><a href="#">FAQ</a></li>
         <li><button>Apply now</button></li>
       </ul>
     </nav>

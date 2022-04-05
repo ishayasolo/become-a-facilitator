@@ -24,7 +24,8 @@
 .nav > ul > li > a {
   display: inline-block;
   padding: 0.5rem 2rem;
-  cursor: pointer;
+  text-decoration: none;
+  color: #10162B;
 }
 
 .nav > ul > li > a:active {
