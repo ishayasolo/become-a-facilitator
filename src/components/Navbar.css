@@ -1,0 +1,42 @@
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: bold;
+}
+
+.nav > img {
+  width: 10rem;
+}
+
+.nav > ul {
+  display: flex;
+  list-style-type: none;
+  gap: 50px;
+  padding: 0;
+  margin: 0;
+}
+
+.nav > ul > li {
+  align-self: center;
+}
+
+.nav > ul > li > a {
+  display: inline-block;
+  padding: 0.5rem 2rem;
+  cursor: pointer;
+}
+
+.nav > ul > li > a:active {
+  color: #3045A8;
+}
+
+.nav > ul > li > button {
+  padding: 1.2rem 2rem;
+  cursor: pointer;
+  border-radius: 10px;
+  border: none;
+  background-color: #10162B;
+  color: #fff;
+  font-weight: bold;
+}
