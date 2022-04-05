@@ -33,6 +33,7 @@
 }
 
 .nav > ul > li > button {
+  font-family: 'Montserrat', sans-serif;
   padding: 1.2rem 2rem;
   cursor: pointer;
   border-radius: 10px;
