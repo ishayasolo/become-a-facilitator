@@ -32,6 +32,8 @@
   color: #3045A8;
 }
 
+.nav > ul > li > a:hover {}
+
 .nav > ul > li > button {
   font-family: 'Montserrat', sans-serif;
   padding: 1.2rem 2rem;

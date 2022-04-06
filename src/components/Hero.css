@@ -29,7 +29,7 @@
   font-weight: 300;
 }
 
-.hero > .text-box > button {
+.hero > .text-box > .cta {
   background-color: #10162B;
   color: #fff;
   font-family: "Montserrat", sans-serif;
@@ -48,4 +48,26 @@
   border-radius: 10px;
   padding: 0.5rem;
   width: 550px;
+}
+
+.catch-phrase {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.catch-phrase > .question {
+  color: #10162B;
+  font-size: 2rem;
+  text-align: center;
+  margin: 0;
+}
+
+.catch-phrase > .advice {
+  width: 700px;
+  text-align: center;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  color: #10162B;
 }
