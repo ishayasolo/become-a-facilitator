@@ -38,15 +38,10 @@
   border-radius: 10px;
 }
 
-.hero > .image-box {
+.hero > img {
   border-radius: 10px;
-  background-color: #FFF3D1;
-  display: flex;
-}
-
-.hero > .image-box > img {
-  border-radius: 10px;
-  padding: 0.5rem;
+  border: 10px solid #FFF3D1;
+  align-self: stretch;
   width: 550px;
 }
 

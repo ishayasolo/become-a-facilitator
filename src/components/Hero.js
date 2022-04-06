@@ -11,9 +11,7 @@ export const Hero = () => {
           <p>Help aspiring tech professionals level up and discover their talents through one-on-one training.</p>
           <button className="cta">Apply to join our faculty</button>
         </div>
-        <div className="image-box">
-          <img src={heroImage} alt="" />
-        </div>
+        <img src={heroImage} alt="" />
       </section>
       <section className="catch-phrase">
         <h2 className="question">Ready to unlock potentials as a member of our faculty?</h2>
