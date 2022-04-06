@@ -1,0 +1,14 @@
+.card-image-box {
+  border: 5px solid #DFEFFF;
+  border-radius: 10px;
+  width: 500px;
+}
+
+.card-image-box > img {
+  position: relative;
+  top: 2rem;
+  left: 2rem;
+  width: 500px;
+  border-radius: 10px;
+}
+

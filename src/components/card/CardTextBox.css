@@ -1,0 +1,40 @@
+.card-text-box {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  align-self: center;
+  gap: 1.5rem;
+}
+
+.card-text-box > .heading-container > .heading {
+  font-size: 1.5rem;
+  line-height: 2;
+  font-weight: 500;
+}
+
+.card-text-box > .heading-container > .border {
+  border-top: 3px solid #FBBF19;
+  width: 50px;
+}
+
+.card-text-box > .statement {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  font-weight: 400;
+}
+
+.card-text-box > a > .cta {
+  background-color: #10162B;
+  color: #fff;
+  font-family: "Spoof", sans-serif;
+  border: 2px solid #fffffd;
+  padding: 0.75rem 2rem;
+  border-radius: 10px;
+}
+
+.card-text-box > a > .cta:hover {
+  border: 2px solid #10162B;
+  background-color: #fffffd;
+  color: #10162B;
+  transition: 0.5s;
+}

@@ -1,0 +1,11 @@
+.card-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15rem;
+}
+
+.card-container > .card {
+  display: flex;
+  justify-content: center;
+  gap: 7rem;
+}
