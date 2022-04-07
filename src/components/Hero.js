@@ -27,9 +27,9 @@ export const FormHero = () => {
       <div className="form-text-box">
         <h1>Ready to unlock potentials as a member of our faculty?</h1>
         <p>Fill the form below to get started</p>
-        <Link to="/form">
+        <a href="#form">
           <button className="cta"><img src={arrowDown} alt=""/></button>
-        </Link>
+        </a>
       </div>
     </div>
   );

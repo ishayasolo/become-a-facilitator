@@ -4,7 +4,6 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 // user-defined components
 import { Form } from "./Form";
 import { App } from "./App";
-import { Navbar } from "./components/Navbar";
 import { Footer } from "./components/Footer";
 
 const container = document.getElementById("container");

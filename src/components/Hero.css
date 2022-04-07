@@ -82,6 +82,7 @@
 
 .form-hero > .form-text-box > a > .cta:hover {
   width: 5rem;
+  cursor: pointer;
 }
 
 .hero > .text-box .cta {
