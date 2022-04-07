@@ -27,15 +27,14 @@
   font-size: 2.875rem;
   font-weight: 500;
   width: 36.125rem;
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
 }
 
 .hero > .text-box > p {
   font-size: 1.5rem;
-  line-height: 172%;
   font-weight: 300;
   width: 32.5rem;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 
 .hero > .text-box > a > .cta {
@@ -59,6 +58,7 @@
   margin-left: auto;
   border: 5px solid #FFF3D1;
   display: flex;
+  align-self: flex-start;
   border-radius: 10px;
   transition: border 0.5s;
 }
@@ -66,6 +66,7 @@
 .hero > .hero-img > img {
   border-radius: 5px;
   width: 100%;
+  align-self: flex-start;
 }
 
 .hero > .hero-img:hover {
