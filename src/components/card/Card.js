@@ -7,7 +7,7 @@ import "./Card.css";
 
 export const Card = () => {
   return (
-    <section className="card-container">
+    <div className="card-container">
       <div className="card">
         <CardImageBox 
           img={cardBoxImage1}
@@ -26,6 +26,6 @@ export const Card = () => {
           img={cardBoxImage2}
         />
       </div>
-    </section>
+    </div>
   );
 }

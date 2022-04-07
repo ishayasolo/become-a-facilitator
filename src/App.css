@@ -1,9 +1,26 @@
 .app {
-  max-width: 1200px;
-  margin: auto;
-  display: flex;
-  flex-direction: column;
-  gap: 7rem;
   color: #10162B;
   font-family: "Spoof", sans-serif;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  max-width: 1800px;
+  padding: 0 5rem;
+  margin: 0 auto;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+  max-width: 1800px;
+  margin: 5rem auto;
+}
+
+footer {
+  margin: 0 auto;
+  background-color: #FFFEF5;
 }

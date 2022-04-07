@@ -27,14 +27,14 @@
   background-color: #10162B;
   color: #fff;
   font-family: "Spoof", sans-serif;
-  border: 2px solid #fffffd;
+  border: 2px solid #10162B;
   padding: 0.75rem 2rem;
   border-radius: 10px;
+  transition: 0.5s;
 }
 
 .card-text-box > a > .cta:hover {
   border: 2px solid #10162B;
   background-color: #fffffd;
   color: #10162B;
-  transition: 0.5s;
 }

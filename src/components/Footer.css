@@ -1,0 +1,79 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+  padding: 7rem 5rem;
+  max-width: 1800px;
+  margin: 0 auto;
+  font-size: 1rem;
+
+}
+
+.footer > .footer-nav {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.footer > .footer-nav > ul {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  width: 100%;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer > .footer-nav > ul > li > a > img {
+  width: 10rem;
+  padding: 0;
+}
+
+.footer > .footer-nav > ul > li > a {
+  display: inline-block;
+  padding: 0.5rem;
+  text-decoration: none;
+}
+
+.footer > .footer-nav > ul > li a {
+  color: #10162B;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+.footer > .footer-nav > ul > li a:hover {
+  color: #c3c3c3;
+}
+
+.footer > .footer-nav > ul > li.address {
+  padding-top: 0.5rem;
+  font-style: normal;
+}
+
+.footer > .footer-nav > ul > li.address > address {
+  font-style: normal;
+  line-height: 1.7;
+}
+
+.footer > .footer-nav-2 {
+  display: flex;
+  list-style-type: none;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.footer > .footer-nav-2 a {
+  color: #10162B;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+.footer > .footer-nav-2 .empty {
+  border: 2px solid #e5e5e5;
+}
+
+.footer > .footer-nav-2 > li a:hover {
+  color: #c3c3c3;
+}

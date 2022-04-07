@@ -1,0 +1,21 @@
+.catch-phrase {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 5rem 0;
+}
+
+.catch-phrase > .question {
+  font-size: 2.125rem;
+  text-align: center;
+  font-weight: 500;
+}
+
+.catch-phrase > .advice {
+  width: 700px;
+  font-weight: 300;
+  text-align: center;
+  font-size: 1.5rem;
+  line-height: 1.5;
+}

@@ -3,17 +3,17 @@ import logo from "../images/the-bulb-logo.png";
 
 export const Navbar = () => {
   return (
-    <header>
-      <nav className="nav">
+    <nav className="nav">
+      <div className="img-container">
         <img className="logo" src={logo} alt="" />
-        <ul>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Courses</a></li>
-          <li><a href="#">Become a facilitator</a></li>
-          <li><a href="#">FAQ</a></li>
-          <li><button>Apply now</button></li>
-        </ul>
-      </nav>
-    </header>
+      </div>
+      <ul>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Courses</a></li>
+        <li><a href="#">Become a facilitator</a></li>
+        <li><a href="#">FAQ</a></li>
+        <li><button className="cta">Apply now</button></li>
+      </ul>
+    </nav>
   );
 }
