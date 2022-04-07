@@ -1,18 +1,36 @@
 import "./Navbar.css";
 import logo from "../images/the-bulb-logo.png";
+import darkLogo from "../images/the-bulb-logo-dark.png";
+
+import { Link } from "react-router-dom";
 
 export const Navbar = () => {
   return (
     <nav className="nav">
       <div className="img-container">
-        <img className="logo" src={logo} alt="" />
+        <Link to="/"><img className="logo" src={logo} alt="" /></Link>
       </div>
       <ul>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Courses</a></li>
-        <li><a href="#">Become a facilitator</a></li>
-        <li><a href="#">FAQ</a></li>
-        <li><button className="cta">Apply now</button></li>
+        <li><Link to="/about">About</Link></li>
+        <li><Link to="/courses">Courses</Link></li>
+        <li><Link to="/form">Become a facilitator</Link></li>
+        <li><Link to="./faq">FAQ</Link></li>
+        <li><Link className="button-link" to="./form"><button className="cta">Apply now</button></Link></li>
+      </ul>
+    </nav>
+  );
+}
+
+export const FormNavbar = () => {
+  return (
+    <nav className="form-nav">
+      <div className="form-img-container">
+        <Link to="/"><img className="logo" src={darkLogo} alt="" /></Link>
+      </div>
+      <ul>
+        <li><Link to="/about">About</Link></li>
+        <li><Link to="/courses">Courses</Link></li>
+        <li><Link to="./faq">FAQ</Link></li>
       </ul>
     </nav>
   );

@@ -1,4 +1,9 @@
+.footer-container {
+  background-color: #FFFEF5;
+}
+
 .footer {
+  font-family: "Spoof", sans-serif;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -7,7 +12,7 @@
   max-width: 1800px;
   margin: 0 auto;
   font-size: 1rem;
-
+  color: #10162B;
 }
 
 .footer > .footer-nav {
@@ -35,6 +40,10 @@
   display: inline-block;
   padding: 0.5rem;
   text-decoration: none;
+}
+
+.footer > .footer-nav > ul > li > a.footer-img {
+  padding: 0;
 }
 
 .footer > .footer-nav > ul > li a {

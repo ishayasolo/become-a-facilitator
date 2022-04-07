@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./CardTextBox.css";
 
 export const CardTextBox = (prop) => {
@@ -8,9 +9,9 @@ export const CardTextBox = (prop) => {
         <div className="border"></div>
       </div>
       <p className="statement">{prop.statement}</p>
-      <a href="#">
+      <Link to="/form">
         <button className="cta">Apply now</button>
-      </a>
+      </Link>
     </div>
   );
 }

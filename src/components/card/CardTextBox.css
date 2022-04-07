@@ -7,7 +7,7 @@
 }
 
 .card-text-box > .heading-container > .heading {
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   line-height: 2;
   font-weight: 500;
 }
@@ -18,12 +18,12 @@
 }
 
 .card-text-box > .statement {
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   line-height: 1.7;
   font-weight: 400;
 }
 
-.card-text-box > a > .cta {
+.card-text-box .cta {
   background-color: #10162B;
   color: #fff;
   font-family: "Spoof", sans-serif;
@@ -33,7 +33,7 @@
   transition: 0.5s;
 }
 
-.card-text-box > a > .cta:hover {
+.card-text-box .cta:hover {
   border: 2px solid #10162B;
   background-color: #fffffd;
   color: #10162B;

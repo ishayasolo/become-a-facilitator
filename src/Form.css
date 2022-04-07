@@ -1,0 +1,20 @@
+.header {
+  background-color: #10162B;
+  height: 100vh;
+}
+
+.hero-only {
+  display: flex;
+  justify-content: space-around;
+  height: calc(100% - 133.483px);
+  align-items: center;
+}
+
+.form {
+  font-weight: 400;
+  font-family: "Spoof", sans-serif;
+  max-width: 1800px;
+  padding: 2.5rem 5rem;
+  margin: 0 auto;
+}
+
