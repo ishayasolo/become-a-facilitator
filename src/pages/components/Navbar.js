@@ -14,8 +14,8 @@ export const Navbar = () => {
         <li><Link to="/about">About</Link></li>
         <li><Link to="/courses">Courses</Link></li>
         <li><Link to="/form">Become a facilitator</Link></li>
-        <li><Link to="./faq">FAQ</Link></li>
-        <li><Link className="button-link" to="./form"><button className="cta">Apply now</button></Link></li>
+        <li><Link to="/faq">FAQ</Link></li>
+        <li><Link className="button-link" to="/form"><button className="cta">Apply now</button></Link></li>
       </ul>
     </nav>
   );
