@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/become-a-facilitator/static/css/main.4599e27a.css",
+    "main.js": "/become-a-facilitator/static/js/main.c1d06d3d.js",
+    "static/media/card-box-img-2.png": "/become-a-facilitator/static/media/card-box-img-2.f2075b8ddc9983af5718.png",
+    "static/media/card-box-img-1.png": "/become-a-facilitator/static/media/card-box-img-1.187bf90d0e3159375f60.png",
+    "static/media/the-bulb-logo-dark.png": "/become-a-facilitator/static/media/the-bulb-logo-dark.defefb92a9d58dfaef36.png",
+    "static/media/the-bulb-logo.png": "/become-a-facilitator/static/media/the-bulb-logo.0ed0be30dd9d9eb8bdee.png",
+    "static/media/Spoof-Thin.eot": "/become-a-facilitator/static/media/Spoof-Thin.6afd61044e7f0a313dc6.eot",
+    "static/media/Spoof-Thin.ttf": "/become-a-facilitator/static/media/Spoof-Thin.a4d440c8cb9297104cdc.ttf",
+    "static/media/Spoof-Light.eot": "/become-a-facilitator/static/media/Spoof-Light.ff0f2b1a38211003fc76.eot",
+    "static/media/Spoof-Light.ttf": "/become-a-facilitator/static/media/Spoof-Light.d61551296488dbf84ef9.ttf",
+    "static/media/Spoof-Black.eot": "/become-a-facilitator/static/media/Spoof-Black.b3b79c44d72f39b3dbff.eot",
+    "static/media/Spoof-Regular.eot": "/become-a-facilitator/static/media/Spoof-Regular.f38b30914a9f7fbafbda.eot",
+    "static/media/Spoof-Black.ttf": "/become-a-facilitator/static/media/Spoof-Black.8fb0d338e17a3ed76d85.ttf",
+    "static/media/Spoof-Medium.eot": "/become-a-facilitator/static/media/Spoof-Medium.a849614b7f231572d5c3.eot",
+    "static/media/Spoof-Regular.ttf": "/become-a-facilitator/static/media/Spoof-Regular.1a271727e67611cb09a0.ttf",
+    "static/media/Spoof-Medium.ttf": "/become-a-facilitator/static/media/Spoof-Medium.3e421ea3bc7683e54d45.ttf",
+    "static/media/Spoof-Bold.eot": "/become-a-facilitator/static/media/Spoof-Bold.4e9d992469b93bcad679.eot",
+    "static/media/Spoof-Bold.ttf": "/become-a-facilitator/static/media/Spoof-Bold.997265f1bf214691cdcb.ttf",
+    "static/media/Spoof-Thin.woff": "/become-a-facilitator/static/media/Spoof-Thin.3705bf2c5836e1b5e7c7.woff",
+    "static/media/Spoof-Black.woff": "/become-a-facilitator/static/media/Spoof-Black.f804c7b55fa95748019e.woff",
+    "static/media/Spoof-Light.woff": "/become-a-facilitator/static/media/Spoof-Light.0adb9b6d90534326169d.woff",
+    "static/media/Spoof-Regular.woff": "/become-a-facilitator/static/media/Spoof-Regular.95c71d43563fb835ea19.woff",
+    "static/media/Spoof-Medium.woff": "/become-a-facilitator/static/media/Spoof-Medium.178e404f856a05bcbec5.woff",
+    "static/media/Spoof-Bold.woff": "/become-a-facilitator/static/media/Spoof-Bold.23ffa09b70579340cdc0.woff",
+    "static/media/Spoof-Thin.woff2": "/become-a-facilitator/static/media/Spoof-Thin.06f88f4763ba0187dd70.woff2",
+    "static/media/Spoof-Regular.woff2": "/become-a-facilitator/static/media/Spoof-Regular.bbb9503f8cfa1dc27cf2.woff2",
+    "static/media/Spoof-Light.woff2": "/become-a-facilitator/static/media/Spoof-Light.f50f0ebf1fe12e06ed35.woff2",
+    "static/media/Spoof-Black.woff2": "/become-a-facilitator/static/media/Spoof-Black.93861d31f44921b76703.woff2",
+    "static/media/Spoof-Medium.woff2": "/become-a-facilitator/static/media/Spoof-Medium.518b5d9b11f48dbe886f.woff2",
+    "static/media/Spoof-Bold.woff2": "/become-a-facilitator/static/media/Spoof-Bold.391d61866ee1f54be252.woff2",
+    "static/media/hero-img.webp": "/become-a-facilitator/static/media/hero-img.46599a33ac2a748cd4e8.webp",
+    "index.html": "/become-a-facilitator/index.html",
+    "static/media/arrow-down.svg": "/become-a-facilitator/static/media/arrow-down.a0a35e19f5f3a6815ebba70da2a8efd7.svg",
+    "main.4599e27a.css.map": "/become-a-facilitator/static/css/main.4599e27a.css.map",
+    "main.c1d06d3d.js.map": "/become-a-facilitator/static/js/main.c1d06d3d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4599e27a.css",
+    "static/js/main.c1d06d3d.js"
+  ]
+}
