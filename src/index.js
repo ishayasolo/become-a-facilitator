@@ -12,7 +12,7 @@ const root = ReactDOM.createRoot(container);
 root.render(
   <Router>
     <Routes>
-      <Route path="/" element={<App />} />
+      <Route index element={<App />} />
       <Route path="/form" element={<Form />} />
     </Routes>
     <Footer />
