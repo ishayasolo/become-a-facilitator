@@ -1,23 +1,21 @@
-import { Hero } from "./components/Hero";
-import { CatchPhrase } from "./components/CatchPhrase";
-import { Card } from "./components/card/Card";
-import { Navbar } from "./components/Navbar";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+
+// user-defined components
+import { BecomeAFacilitator } from "./pages/BecomeAFacilitator";
+import { Form } from "./pages/Form";
+import { Footer } from "./pages/components/Footer";
 
 // component stylesheets
-import "./App.css"
 import "./font/font.css"
 
 export const App = () => {
   return (
-    <div className="app">
-      <header>
-        <Navbar />
-        <Hero />
-      </header>
-      <main className="main">
-        <CatchPhrase />
-        <Card />
-      </main>
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<BecomeAFacilitator />} />
+        <Route path="/form" element={<Form />} />
+      </Routes>
+      <Footer />
+    </Router>
   );
 }

@@ -1,6 +1,6 @@
 import "./Hero.css";
-import heroImage from "../images/hero-img.webp";
-import arrowDown from "../images/arrow-down.svg"
+import heroImage from "../../images/hero-img.webp";
+import arrowDown from "../../images/arrow-down.svg"
 import { Link } from "react-router-dom";
 
 export const Hero = () => {

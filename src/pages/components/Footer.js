@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-import logo from "../images/the-bulb-logo.png";
+import logo from "../../images/the-bulb-logo.png";
 import "./Footer.css";
 
 export const Footer = () => {

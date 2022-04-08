@@ -1,6 +1,6 @@
 import "./Navbar.css";
-import logo from "../images/the-bulb-logo.png";
-import darkLogo from "../images/the-bulb-logo-dark.png";
+import logo from "../../images/the-bulb-logo.png";
+import darkLogo from "../../images/the-bulb-logo-dark.png";
 
 import { Link } from "react-router-dom";
 

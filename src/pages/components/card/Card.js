@@ -1,7 +1,7 @@
 import { CardTextBox } from "./CardTextBox";
 import { CardImageBox } from "./CardImageBox";
-import cardBoxImage1 from "../../images/card-box-img-1.png";
-import cardBoxImage2 from "../../images/card-box-img-2.png";
+import cardBoxImage1 from "../../../images/card-box-img-1.png";
+import cardBoxImage2 from "../../../images/card-box-img-2.png";
 
 import "./Card.css";
 
