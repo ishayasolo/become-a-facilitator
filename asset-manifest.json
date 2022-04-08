@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/become-a-facilitator/static/css/main.48401441.css",
-    "main.js": "/become-a-facilitator/static/js/main.ea1db1ea.js",
+    "main.js": "/become-a-facilitator/static/js/main.d70f3b2b.js",
     "static/media/card-box-img-2.png": "/become-a-facilitator/static/media/card-box-img-2.f2075b8ddc9983af5718.png",
     "static/media/card-box-img-1.png": "/become-a-facilitator/static/media/card-box-img-1.187bf90d0e3159375f60.png",
     "static/media/the-bulb-logo-dark.png": "/become-a-facilitator/static/media/the-bulb-logo-dark.defefb92a9d58dfaef36.png",
@@ -34,10 +34,10 @@
     "index.html": "/become-a-facilitator/index.html",
     "static/media/arrow-down.svg": "/become-a-facilitator/static/media/arrow-down.a0a35e19f5f3a6815ebba70da2a8efd7.svg",
     "main.48401441.css.map": "/become-a-facilitator/static/css/main.48401441.css.map",
-    "main.ea1db1ea.js.map": "/become-a-facilitator/static/js/main.ea1db1ea.js.map"
+    "main.d70f3b2b.js.map": "/become-a-facilitator/static/js/main.d70f3b2b.js.map"
   },
   "entrypoints": [
     "static/css/main.48401441.css",
-    "static/js/main.ea1db1ea.js"
+    "static/js/main.d70f3b2b.js"
   ]
 }
