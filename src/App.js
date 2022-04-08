@@ -12,7 +12,7 @@ export const App = () => {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<BecomeAFacilitator />} />
+        <Route path="/become-a-facilitator" element={<BecomeAFacilitator />} />
         <Route path="/form" element={<Form />} />
       </Routes>
       <Footer />
