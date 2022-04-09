@@ -6,7 +6,7 @@ import "./Form.css";
 export const Form = () => {
   return(
     <div  className="form-container">
-      <header className="header">
+      <header className="form-header">
         <FormNavbar />
         <div className="hero-only">
           <FormHero />

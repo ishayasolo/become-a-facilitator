@@ -1,21 +1,23 @@
 .card-image-box {
   border: 5px solid #DFEFFF;
   border-radius: 10px;
-  width: 500px;
+  /* width: 500px; */
   display: flex;
 }
 
 .card-image-box > img {
-  align-self: center;
+  /* align-self: center;
   position: relative;
   top: 2rem;
-  left: 2rem;
+  left: 2rem; */
   width: 100%;
   border-radius: 5px;
-  transition: 0.5s;
+  /* transition: 0.5s; */
 }
 
+/* 
 .card-image-box > img:hover {
   top: 0;
   left: 0;
 }
+*/

@@ -3,10 +3,12 @@ import { CatchPhrase } from "./components/CatchPhrase";
 import { Card } from "./components/card/Card";
 import { Navbar } from "./components/Navbar";
 
+import "./BecomeAFacilitator.css"
+
 export const BecomeAFacilitator = () => {
   return (
     <div className="facilitator">
-      <header>
+      <header className="header">
         <Navbar />
         <Hero />
       </header>

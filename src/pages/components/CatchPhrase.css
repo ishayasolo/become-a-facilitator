@@ -2,21 +2,22 @@
   font-family: "Spoof", sans-serif;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  /* align-items: center; */
   gap: 1.5rem;
-  padding: 10rem 0;
+  /* padding: 10rem 0; */
+  padding: 3rem 1rem;
 }
 
 .catch-phrase > .question {
   font-size: 2.125rem;
-  text-align: center;
+  /* text-align: center; */
   font-weight: 500;
 }
 
 .catch-phrase > .advice {
-  width: 700px;
+  /* width: 700px; */
   font-weight: 300;
-  text-align: center;
+  /* text-align: center; */
   font-size: 1.5rem;
   line-height: 1.5;
 }

@@ -1,13 +1,18 @@
 .card-container {
   display: flex;
   flex-direction: column;
-  gap: 10rem;
-  padding: 0 0 10rem;
+  /* gap: 10rem; */
+  gap: 2rem;
+  /* padding: 0 0 10rem; */
+  padding: 1rem 1rem 5rem;
   font-family: "Spoof", sans-serif;
 }
 
 .card-container > .card {
   display: flex;
+  flex-direction: column;
+  /*
   justify-content: center;
   gap: 7rem;
+  */
 }

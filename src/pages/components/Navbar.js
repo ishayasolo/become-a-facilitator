@@ -3,20 +3,28 @@ import logo from "../../images/the-bulb-logo.png";
 import darkLogo from "../../images/the-bulb-logo-dark.png";
 
 import { Link } from "react-router-dom";
+import { useState } from "react";
 
 export const Navbar = () => {
+  const [open, setOpen] = useState(false);
+
+  const toggleNav = () => {
+    setOpen(!open);
+  }
+  
   return (
     <nav className="nav">
       <div className="img-container">
         <Link to="/become-a-facilitator"><img className="logo" src={logo} alt="" /></Link>
+        <div className="hamburger"><button onClick={toggleNav}>&#9776;</button></div>
       </div>
-      <ul>
+      {open === true && <ul>
         <li><Link to="/about">About</Link></li>
         <li><Link to="/courses">Courses</Link></li>
         <li><Link to="/form">Become a facilitator</Link></li>
         <li><Link to="/faq">FAQ</Link></li>
         <li><Link className="button-link" to="/form"><button className="cta">Apply now</button></Link></li>
-      </ul>
+      </ul>}
     </nav>
   );
 }
