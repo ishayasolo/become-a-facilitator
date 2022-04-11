@@ -1,14 +1,16 @@
 .card-text-box {
   display: flex;
   flex-direction: column;
+  max-width: 400px;
+  margin: 0 auto;
   /* width: 500px; */
   /* align-self: center; */
   gap: 1.5rem;
-  padding: 1rem 0;
+  padding: 3rem 0;
 }
 
 .card-text-box > .heading-container > .heading {
-  font-size: 1.6rem;
+  font-size: 1.7rem;
   line-height: 2;
   font-weight: 500;
 }
@@ -19,9 +21,9 @@
 }
 
 .card-text-box > .statement {
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   line-height: 1.7;
-  font-weight: 400;
+  font-weight: 300;
 }
 
 .card-text-box .cta {
@@ -39,3 +41,12 @@
   background-color: #fffffd;
   color: #10162B;
 }
+
+@media only screen and (min-width: 768px) {
+  .card-text-box {
+    width: 50%;
+    max-width: 400px;
+  }
+}
+
+@media only screen and (min-width: 1090px) {}
