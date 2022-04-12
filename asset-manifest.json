@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/become-a-facilitator/static/css/main.0c8fb282.css",
+    "main.css": "/become-a-facilitator/static/css/main.607847c0.css",
     "main.js": "/become-a-facilitator/static/js/main.3ecc2ba2.js",
     "static/media/card-box-img-2.png": "/become-a-facilitator/static/media/card-box-img-2.f2075b8ddc9983af5718.png",
     "static/media/card-box-img-1.png": "/become-a-facilitator/static/media/card-box-img-1.187bf90d0e3159375f60.png",
@@ -33,11 +33,11 @@
     "static/media/hero-img.webp": "/become-a-facilitator/static/media/hero-img.46599a33ac2a748cd4e8.webp",
     "index.html": "/become-a-facilitator/index.html",
     "static/media/arrow-down.svg": "/become-a-facilitator/static/media/arrow-down.a0a35e19f5f3a6815ebba70da2a8efd7.svg",
-    "main.0c8fb282.css.map": "/become-a-facilitator/static/css/main.0c8fb282.css.map",
+    "main.607847c0.css.map": "/become-a-facilitator/static/css/main.607847c0.css.map",
     "main.3ecc2ba2.js.map": "/become-a-facilitator/static/js/main.3ecc2ba2.js.map"
   },
   "entrypoints": [
-    "static/css/main.0c8fb282.css",
+    "static/css/main.607847c0.css",
     "static/js/main.3ecc2ba2.js"
   ]
 }
